@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+    jenkins:
+        image: jenkins:latest
+        user: jenkins
+        volumes:
+            - /home/mpalade/opt/jenkins:/var/jenkins_home
+        ports:
+            - "8080:8080"
+            - "50000:50000"
