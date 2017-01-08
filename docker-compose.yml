@@ -2,7 +2,7 @@ version: '2'
 
 services:
     jenkins:
-        image: jenkins:latest
+        build: .
         user: jenkins
         volumes:
             - /home/mpalade/opt/jenkins:/var/jenkins_home
