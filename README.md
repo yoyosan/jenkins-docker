@@ -1,6 +1,6 @@
 # Jenkins Docker
 
-This is a skeleton for running Jenkins with Nodes locally using Docka' Powa'.
+This is a simple to setup and run Jenkins with Nodes locally/remotely using Docka' Powa'.
 
 ## Installation steps
 
@@ -31,3 +31,13 @@ $ docker rm <container_id>
 ```
 
 Now, follow the guide [here](https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin) and profit!
+
+## Screenshots
+
+**Build index**
+
+![Build index](http://i.imgur.com/bhigpiA.png "Build index")
+
+**Build output**
+
+![Build output](http://i.imgur.com/NkuWjHc.png "Build output")
